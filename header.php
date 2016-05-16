@@ -112,10 +112,9 @@
 							));
 							
 						} ?>
-						
-						<div class="clear"></div>
 												
 					 </ul>
+					 <div class="clear"></div>
 					 
 					 <ul class="mobile-menu">
 					
