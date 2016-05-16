@@ -155,7 +155,7 @@ body a,
 .content form textarea,
 .media-caption,
 .post-nav a,
-input#s,
+input.s,
 #searchsubmit,
 .widget-content ul li,
 .widget_recent_entries a,
@@ -1577,7 +1577,7 @@ p.form-allowed-tags {
 
 .post-content .searchform input { height: 60px; }
 
-.post-content .searchform input#s {
+.post-content .searchform input.s {
 	-webkit-appearance: none;
 	width: 99%;
 	padding: 18px 95px 18px 18px;
@@ -1589,7 +1589,7 @@ p.form-allowed-tags {
 	border-radius: 3px 0 0 3px;
 }
 
-.post-content .searchform #s:focus { 
+.post-content .searchform .s:focus { 
 	outline: none; 
 	background: #EEE;
 	color: #444;
@@ -1721,7 +1721,7 @@ p.form-allowed-tags {
 
 .widget_search input { height: 52px; }
 
-.widget_search input#s {
+.widget_search input.s {
 	-webkit-appearance: none;
 	width: 99%;
 	padding: 18px 95px 18px 18px;
@@ -1733,7 +1733,7 @@ p.form-allowed-tags {
 	border-radius: 3px 0 0 3px;
 }
 
-.widget_search #s:focus { 
+.widget_search .s:focus { 
 	outline: none; 
 	background: #EEE;
 	color: #444;
@@ -1944,7 +1944,7 @@ p.form-allowed-tags {
 /* Widget search --------------------------------------- */
 
 
-.footer .widget_search #s:focus { 
+.footer .widget_search .s:focus { 
 	outline: none; 
 	background: #FFF;
 	border-color: #DDD;
@@ -2148,7 +2148,7 @@ img#wpstats { display: none; }
 		overflow: hidden; 
 	}
 	
-	.blog-search #s {
+	.blog-search .s {
 		width: 97.5%;
 		padding: 18px 100px 18px 20px;
 		background: #FFF;
@@ -2160,7 +2160,7 @@ img#wpstats { display: none; }
 		margin: 0;
 	}
 	
-	.blog-search #s:focus { outline: none; }
+	.blog-search .s:focus { outline: none; }
 	
 	.blog-search #searchsubmit {
 		-webkit-appearance: none;
