@@ -156,7 +156,7 @@ body a,
 .media-caption,
 .post-nav a,
 input.s,
-#searchsubmit,
+.searchsubmit,
 .widget-content ul li,
 .widget_recent_entries a,
 .search-toggle.active .metal,
@@ -1595,7 +1595,7 @@ p.form-allowed-tags {
 	color: #444;
 }
 
-.post-content .searchform #searchsubmit {
+.post-content .searchform .searchsubmit {
 	-webkit-appearance: none;
 	position: absolute;
 	right: 0;
@@ -1613,7 +1613,7 @@ p.form-allowed-tags {
 	border-radius: 0 3px 3px 0;
 }
 
-.post-content .searchform #searchsubmit:hover {
+.post-content .searchform .searchsubmit:hover {
 	cursor: pointer;
 	background-color: #089D80;
 	border-color: #089D80;
@@ -1739,7 +1739,7 @@ p.form-allowed-tags {
 	color: #444;
 }
 
-.widget_search #searchsubmit {
+.widget_search .searchsubmit {
 	-webkit-appearance: none;
 	position: absolute;
 	right: 0;
@@ -1757,7 +1757,7 @@ p.form-allowed-tags {
 	border-radius: 0 3px 3px 0;
 }
 
-.widget_search #searchsubmit:hover {
+.widget_search .searchsubmit:hover {
 	cursor: pointer;
 	background-color: #089D80;
 	border-color: #089D80;
@@ -2162,7 +2162,7 @@ img#wpstats { display: none; }
 	
 	.blog-search .s:focus { outline: none; }
 	
-	.blog-search #searchsubmit {
+	.blog-search .searchsubmit {
 		-webkit-appearance: none;
 		position: absolute;
 		right: 0;
@@ -2182,7 +2182,7 @@ img#wpstats { display: none; }
 		border-radius: 0 4px 4px 0;
 	}
 	
-	.blog-search #searchsubmit:hover { 
+	.blog-search .searchsubmit:hover { 
 		cursor: pointer;
 		background-color: #089D80;
 		border-color: #089D80;

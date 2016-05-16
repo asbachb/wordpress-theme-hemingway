@@ -12,7 +12,7 @@
 			$('.post-content a').css('color', newval );
 			$('.widget-content a').css('color', newval );
 			$('.featured-media .sticky-post').css('background', newval );
-			$('.widget_search #searchsubmit').css('background', newval ).css('border', newval );
+			$('.widget_search .searchsubmit').css('background', newval ).css('border', newval );
 		} );
 	} );
 	

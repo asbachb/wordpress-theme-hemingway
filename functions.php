@@ -335,10 +335,10 @@ class Hemingway_Customize {
 	           <?php self::generate_css('body a:hover', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('.blog-title a:hover', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('.blog-menu a:hover', 'color', 'accent_color'); ?>
-	           <?php self::generate_css('.blog-search #searchsubmit', 'background-color', 'accent_color'); ?>
-	           <?php self::generate_css('.blog-search #searchsubmit', 'border-color', 'accent_color'); ?>
-	           <?php self::generate_css('.blog-search #searchsubmit:hover', 'background-color', 'accent_color'); ?>
-	           <?php self::generate_css('.blog-search #searchsubmit:hover', 'border-color', 'accent_color'); ?>
+	           <?php self::generate_css('.blog-search .searchsubmit', 'background-color', 'accent_color'); ?>
+	           <?php self::generate_css('.blog-search .searchsubmit', 'border-color', 'accent_color'); ?>
+	           <?php self::generate_css('.blog-search .searchsubmit:hover', 'background-color', 'accent_color'); ?>
+	           <?php self::generate_css('.blog-search .searchsubmit:hover', 'border-color', 'accent_color'); ?>
 	           <?php self::generate_css('.featured-media .sticky-post', 'background-color', 'accent_color'); ?>
 	           <?php self::generate_css('.post-title a:hover', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('.post-meta a:hover', 'color', 'accent_color'); ?>
@@ -350,10 +350,10 @@ class Hemingway_Customize {
 	           <?php self::generate_css('.post-content input[type="reset"]:hover', 'background-color', 'accent_color'); ?>
 	           <?php self::generate_css('.post-content input[type="button"]:hover', 'background-color', 'accent_color'); ?>
 	           <?php self::generate_css('.post-content fieldset legend', 'background-color', 'accent_color'); ?>
-	           <?php self::generate_css('.post-content .searchform #searchsubmit', 'background', 'accent_color'); ?>
-	           <?php self::generate_css('.post-content .searchform #searchsubmit', 'border-color', 'accent_color'); ?>
-	           <?php self::generate_css('.post-content .searchform #searchsubmit:hover', 'background', 'accent_color'); ?>
-	           <?php self::generate_css('.post-content .searchform #searchsubmit:hover', 'border-color', 'accent_color'); ?>
+	           <?php self::generate_css('.post-content .searchform .searchsubmit', 'background', 'accent_color'); ?>
+	           <?php self::generate_css('.post-content .searchform .searchsubmit', 'border-color', 'accent_color'); ?>
+	           <?php self::generate_css('.post-content .searchform .searchsubmit:hover', 'background', 'accent_color'); ?>
+	           <?php self::generate_css('.post-content .searchform .searchsubmit:hover', 'border-color', 'accent_color'); ?>
 	           <?php self::generate_css('.post-categories a', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('.post-categories a:hover', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('.post-tags a:hover', 'background', 'accent_color'); ?>
@@ -389,10 +389,10 @@ class Hemingway_Customize {
 	           <?php self::generate_css('.widget_recent_entries a:hover', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('.widget_categories a', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('.widget_categories a:hover', 'color', 'accent_color'); ?>
-	           <?php self::generate_css('.widget_search #searchsubmit', 'background', 'accent_color'); ?>
-	           <?php self::generate_css('.widget_search #searchsubmit', 'border-color', 'accent_color'); ?>
-	           <?php self::generate_css('.widget_search #searchsubmit:hover', 'background', 'accent_color'); ?>
-	           <?php self::generate_css('.widget_search #searchsubmit:hover', 'border-color', 'accent_color'); ?>
+	           <?php self::generate_css('.widget_search .searchsubmit', 'background', 'accent_color'); ?>
+	           <?php self::generate_css('.widget_search .searchsubmit', 'border-color', 'accent_color'); ?>
+	           <?php self::generate_css('.widget_search .searchsubmit:hover', 'background', 'accent_color'); ?>
+	           <?php self::generate_css('.widget_search .searchsubmit:hover', 'border-color', 'accent_color'); ?>
 	           <?php self::generate_css('#wp-calendar a', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('#wp-calendar a:hover', 'color', 'accent_color'); ?>
 	           <?php self::generate_css('#wp-calendar tfoot a:hover', 'color', 'accent_color'); ?>
